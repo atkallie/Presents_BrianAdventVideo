@@ -1,0 +1,27 @@
+/* 
+  Notes.strings
+  Presents_BrianAdventVideo
+
+  Created by Ahmed T Khalil on 1/28/17.
+  Copyright © 2017 kalikans. All rights reserved.
+*/
+
+
+
+/*
+See the AppDelegate to remember how we changed the status bar color to white
+ 
+
+ Instead of adding a navigation controller first, we added a table view controller and embedded it into a navigation controller using Editor -> Embed In -> Navigation Controller (unclear whether it makes a difference); we had to create a Cocoa touch class for the table view controller
+ 
+ 
+ Navigation Bar image was added in the table view controller Cocoa file
+
+
+ Note how he created a subclass of UITableViewCell to manage the contents of each cell as opposed to the traditional method of customizing the cell in line (this is much more effective when cells begin to get very complicated)
+ In the TableViewController the dequeueReusableCell is then cast to the created custom class to adopt its attributes
+
+
+ 
+
+*/
